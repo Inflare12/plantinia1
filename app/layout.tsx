@@ -1,4 +1,4 @@
 import './globals.css'
 import Link from 'next/link'
 export const metadata={title:'Plantinia — AI Plant Doctor',description:'Understand your plants with Gemini-powered diagnosis and care.'}
-export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body><header><Link href="/" className="brand">🌱 Plantinia</Link><nav><Link href="/dashboard">Dashboard</Link><Link href="/pricing">Plans</Link><Link href="/login">Log in</Link></nav></header>{children}<footer>© 2026 Plantinia · AI guidance is informational, not a substitute for a qualified agronomist.</footer></body></html>}
+export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body><header><Link href="/" className="brand">🌱 Plantinia</Link><nav><Link href="/dashboard">Dashboard</Link><Link href="/chat">AI Chat</Link><Link href="/pricing">Plans</Link><Link href="/account">Account</Link></nav></header>{children}<footer>© 2026 Plantinia · AI guidance is informational, not a substitute for a qualified agronomist.</footer></body></html>}
