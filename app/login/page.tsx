@@ -1,0 +1,1 @@
+import AuthForm from '@/app/auth-form';import Link from 'next/link';export default function Login(){return <main className="auth"><h1>Welcome back 🌱</h1><p className="muted">Log in to your Plantinia garden.</p><AuthForm/><p>New here? <Link href="/signup">Create an account</Link></p></main>}
