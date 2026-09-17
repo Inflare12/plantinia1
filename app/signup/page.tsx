@@ -1,0 +1,1 @@
+import AuthForm from '@/app/auth-form';import Link from 'next/link';export default function Signup(){return <main className="auth"><h1>Create your garden 🌿</h1><p className="muted">Start with free plant diagnoses.</p><AuthForm signup/><p>Already have an account? <Link href="/login">Log in</Link></p></main>}
